@@ -3,9 +3,7 @@ package Generics.GenericsChallenge.GenericsEnhanced;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/**
- * Created by dev on 18/10/2015.
- */
+
 public class League<T extends Team> {
     public String name;
     private ArrayList<T> league = new ArrayList<>();
